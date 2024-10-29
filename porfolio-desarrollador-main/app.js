@@ -4,12 +4,12 @@ function descargarCV(idioma) {
 
     if (idioma === 'español') {
         // Ruta del archivo en español
-        url = './CV Gastón Rodriguez Consoli.pdf';
-        nombreArchivo = 'CV Gastón Rodriguez Consoli';
+        url = './CV Manuela Rodriguez.pdf';
+        nombreArchivo = 'CV Manuela Rodriguez';
     } else if (idioma === 'inglés') {
         // Ruta del archivo en inglés
-        url = './CV Gastón Rodriguez Consoli English.pdf';
-        nombreArchivo = 'CV Gastón Rodriguez Consoli English';
+        url = './CVManuela Rodriguez in English.pdf';
+        nombreArchivo = 'CV Manuela Rodriguez in English';
     } else {
         // Si el idioma no está especificado, devuelve un error o un mensaje indicando que no se proporcionó un idioma válido.
         console.error('Idioma no válido');
@@ -102,6 +102,7 @@ function verCategoria(cat){
     links[1].className = "";
     links[2].className = "";
     links[3].className = "";
+    links[4].className = "";
 
     const itemSeleccionado = document.getElementById(cat);
     itemSeleccionado.className = "borde";

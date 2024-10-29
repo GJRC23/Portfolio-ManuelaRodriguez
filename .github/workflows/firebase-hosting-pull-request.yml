@@ -12,5 +12,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_GJRC }}'
-          projectId: portfolio-gjrc
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_INGENIERA_MANUELA_RODRIGUEZ }}'
+          projectId: ingeniera-manuela-rodriguez

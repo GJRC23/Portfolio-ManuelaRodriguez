@@ -10,12 +10,16 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: linear-gradient(to right, #000636, #000000);
+    background: rgb(0, 0, 70);
 }
 
 /* SECCION I N I C I O */
 .inicio{
-    background:linear-gradient(to right, #000636, #000000);
+    background-image: url("./img/fondoManuela.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.4);
     clip-path: polygon(0 0, 100% 0, 100% 46%, 20% 84%, 0 45%);
     height: 90vh;
     padding:  0 20px;
@@ -134,7 +138,7 @@ body{
 .servicios .fila .col .card{
     border: 1px solid #8d8d8d;
     height: 460px;
-    background: linear-gradient(to right, #000636, #000000);
+    background: rgb(0, 0, 70);
     padding: 30px;
     border-radius: 20px;
     position: relative;
@@ -165,15 +169,6 @@ body{
 }
 .color2{
     background: linear-gradient(#d902ff, #ff2cce);
-}
-.color3{
-    background: linear-gradient(#0040ff, #1ad1ff);
-}
-.color4{
-    background: linear-gradient(#ffaa00, #ff6a00);
-}
-.color5{
-    background: linear-gradient(#000000, #ababab);
 }
 .color6{
     background: linear-gradient(#ff0000, #ff4a4a);
@@ -336,7 +331,7 @@ body{
 .form-container {
     width: 100%;
     max-width: 500px; /* Aumenta el ancho máximo para que se vea más amplio */
-    background: linear-gradient(to left, #000636, #000000) padding-box,
+    background: linear-gradient(to left, #ffffff, #000951) padding-box,
                 linear-gradient(145deg, transparent 35%,#fd67f3, #4a40ff) border-box;
     border: 2px solid transparent;
     padding: 24px 20px;
@@ -358,7 +353,7 @@ body{
     }
 
     50% {
-        background-position: 100% 50%;
+        background-position: 50% 50%;
     }
 
     100% {
